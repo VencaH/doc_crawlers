@@ -1,0 +1,11 @@
+tutorial/tutorial/power-apps
+tutorial/tutorial/spiders/__pycache__
+tutorial/tutorial/__pycache__
+doc_scrapper/doc_scrapper/__pycache__
+doc_scrapper/doc_scrapper/other/latest/ui-automation/release-notes-uipath-uiautomation-activities-v24-10/ui-automation.txt
+doc_scrapper/doc_scrapper/parsers/__pycache__
+doc_scrapper/doc_scrapper/parsers/power-apps
+doc_scrapper/doc_scrapper/power-apps
+doc_scrapper/doc_scrapper/spiders/__pycache__
+doc_scrapper/doc_scrapper/spiders/other/latest/ui-automation/release-notes-uipath-uiautomation-activities-v24-10
+doc_scrapper/doc_scrapper/file_save.py
