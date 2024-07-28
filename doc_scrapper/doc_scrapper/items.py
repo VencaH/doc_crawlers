@@ -5,8 +5,8 @@
 
 import scrapy
 
-
-class TutorialItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class DocItem(scrapy.Item):
+    url = scrapy.Field()
+    page = scrapy.Field()
+    route = scrapy.Field()
+    text = scrapy.Field()
