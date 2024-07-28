@@ -1,7 +1,7 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from doc_scrapper.spiders.doc_spider import DocSpider
-from doc_scrapper.parsers.uip_parser import UipParser
+from .doc_spider import DocSpider
+from ..parsers.uip_parser import UipParser
 
 
 class UipCrawler(DocSpider):
@@ -13,6 +13,6 @@ class UipCrawler(DocSpider):
     ]
 
     rules = [
-        Rule(LinkExtractor(allow="https://docs.uipath.com/activities/other/latest/ui-automation/release-notes-uipath-uiautomation-activities-v24-10"))
+        Rule(LinkExtractor(allow="https://docs.uipath.com/activities/other/latest/ui-automation/release-notes-uipath-uiautomation-activities-v24-10"), callback = "parse")
     ]
 

@@ -9,3 +9,6 @@ doc_scrapper/doc_scrapper/power-apps
 doc_scrapper/doc_scrapper/spiders/__pycache__
 doc_scrapper/doc_scrapper/spiders/other/latest/ui-automation/release-notes-uipath-uiautomation-activities-v24-10
 doc_scrapper/doc_scrapper/file_save.py
+doc_scrapper/doc_scrapper/other/latest/ui-automation/release-notes-uipath-uiautomation-activities-v24-10
+doc_scrapper/doc_scrapper/release-notes-uipath-uiautomation-activities-v24-10
+doc_scrapper/power-apps

@@ -1,7 +1,7 @@
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from doc_scrapper.spiders.doc_spider import DocSpider
-from doc_scrapper.parsers.pa_parser import PaParser
+from .doc_spider import DocSpider
+from ..parsers.pa_parser import PaParser
 import os
 
 
@@ -14,5 +14,5 @@ class PaCrawler(DocSpider):
     ]
 
     rules = [
-        Rule(LinkExtractor(allow="en-us/power-apps"))
+        Rule(LinkExtractor(allow="en-us/power-apps"), callback = "parse")
     ]

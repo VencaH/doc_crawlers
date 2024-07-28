@@ -1,4 +1,4 @@
-from doc_scrapper.parsers.parser import ParserInterface
+from .parser import ParserInterface
 
 class PaParser(ParserInterface):
 
